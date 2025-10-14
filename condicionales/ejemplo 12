@@ -1,0 +1,8 @@
+nota1=int (input("Ingresar la primera nota: "))
+nota2=int (input("Ingresar la segunda nota: "))
+nota3=int (input("Ingresar la tercera nota: "))
+promedio= ((nota1+nota2+nota3)/3)
+if promedio>7: 
+    print ("Usted esta promocionado, su promedio es: ",promedio)
+else: 
+    print ("Usted no esta promocionado, su promedio es: ",promedio)
