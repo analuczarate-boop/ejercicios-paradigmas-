@@ -1,0 +1,5 @@
+sueldo=int (input("Ingrese su sueldo"))
+if sueldo>3000:
+    print ("Paga impuestos")
+else: 
+    print ("No paga impuestos") 
