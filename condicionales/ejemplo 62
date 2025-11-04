@@ -1,0 +1,9 @@
+#realizar la carga de un nombre de una persona y mostrar la primera letra y la cant q lo componen
+nombre=input("Su nombre es: ")
+caract1=nombre[0] 
+caractn=nombre[-1]
+cant=len (nombre)
+print("El primer caracter: ",caract1,",Longitud del nombre: ",cant,"El ultimo caracter es: ",caractn)
+#recorrar la cadena con un for
+for caracter in nombre:
+    print(caracter)

@@ -1,0 +1,8 @@
+#ingresan 3 num, si al menos uno es menor a 10, escribir un msj de "es menor a diez"
+num1=int (input("Ingrese el primer numero: "))
+num2=int (input("Ingrese el segundo numero: "))
+num3=int (input("Ingrese el tercer numero: "))
+if (num1 or num2 or num3) >10:
+    print ("Hay alguno mayor a 10")
+else: 
+    print("Hay al menos uno menor a 10")

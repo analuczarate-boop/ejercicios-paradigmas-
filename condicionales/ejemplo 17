@@ -1,16 +1,17 @@
+#cargar un programa que permita cargar un num entero positivo de hasta 3 cifras q muestre un error de mensaje si tiene mas de 3 y sino q marque la cantidad de cifras
 try:
  num=-1
  while num<0:
     num=int(input("ingrese un numero positivo: "))
- if num>=100:
+    if num>=100:
         if num>=1000:
          print ("Error")
         else: 
          print("Su numero tiene 3 cifras, ",num)
- else: 
+    else: 
         if num>=10:
             print("Su numero tiene 2 cifras, ",num)
         else: 
             print("Su numero tiene una cifra, ",num)
 except ValueError:
-    print("El numero ingresado no es un numero positivo")
+ print("El numero ingresado no es un numero positivo")

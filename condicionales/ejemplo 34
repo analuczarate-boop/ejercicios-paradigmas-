@@ -1,0 +1,12 @@
+#en una empresa trabajan n empleados,cuyos sueldos varian desde 100 y 500. Realizar un prog q lea los sueldos q cobra cada empleado e informe cuantos cobran entre 100 y 500 y cuantos cobran mas de 300. Ademas debera informar el importe q gasta la empresa en sueldos de personal. 
+n=int (input("Ingrese la cantidad de empleados: "))
+gastos=0
+for n in range (1, n+1):
+ sueldo=int (input("Ingrese su sueldo: "))
+ if 100<= sueldo <=300:
+     print("Su sueldo esta entre 100 y 300"), sueldo
+ else:
+     print ("Su sueldo esta entre 100 y 500"), sueldo 
+ gastos+=sueldo
+ print("El gasto total de sueldos es: ",gastos)
+ 

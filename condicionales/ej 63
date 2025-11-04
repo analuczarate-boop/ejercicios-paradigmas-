@@ -1,0 +1,6 @@
+#solicitar la carga del nombre en minuscula, mostrar msj si dicho nombre empieza con vocal
+nombre=input("Ingrese su nombre en minuscula: ")
+if nombre[0] == ("a" or "e" or "i" or "o" or "u"):
+ print("El nombre empieza con una vocal: ")
+else: 
+  print ("Su nombre no empieza con vocal")

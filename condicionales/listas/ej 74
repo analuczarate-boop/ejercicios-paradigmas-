@@ -1,0 +1,6 @@
+#definir una lista q alamacene por designacion los nombres de 5 personas,contar cuantos de esos nombres tienen 5 caracteres o mas
+lista=["ana","martina","nicolas","camila","gian"]
+for nombre in lista:
+  if  len(nombre)>=5:
+    contador=+1
+    print("estos nombres tiene mas de 5 caracteres:",nombre)

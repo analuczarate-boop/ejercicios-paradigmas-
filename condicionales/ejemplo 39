@@ -1,0 +1,17 @@
+#muestren con while y for numeros del 0 al 100, despues con for imprimimos del 20 al 30 de uno a uno, luego del 1 al 100 de 2 en 2
+#i=int
+#for i in range (20,31):
+ # print (i )
+
+#i=int
+#for i in range (1,101,2):
+#print (i)
+
+#i=int
+#for i in range (1,101):
+#    print (i)
+
+i=0
+while i<100:
+    i=i+1
+    print(i)

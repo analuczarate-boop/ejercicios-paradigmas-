@@ -1,0 +1,6 @@
+#defina una lista de 5 elementos, sumenlos y muestranla 
+lista=[1,2,3,4,5 ]
+rta=sum(lista)
+print("su lista es ",lista,"la suma es: ",rta)
+#se imprime el digito 0
+print(lista[0 ])

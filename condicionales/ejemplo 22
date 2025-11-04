@@ -1,0 +1,8 @@
+#Hacer un programa q imprima los numeros del 1 al 100 (hecho con for)
+#for i in range (1,101):
+ #print (i)
+#ahora lo hacemos con while
+i=(1)
+while i<101:
+    print (i)
+    i=i+1
